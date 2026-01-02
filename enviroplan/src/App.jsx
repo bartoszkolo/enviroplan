@@ -261,6 +261,61 @@ function App() {
       {/* --- CTA / KONTAKT --- */}
       <section id="kontakt" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Specjaliści */}
+          <div className="text-center mb-16">
+            <h2 className="text-sm font-bold text-enviro-600 uppercase tracking-widest mb-2">Nasz Zespół</h2>
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">Skontaktuj się ze specjalistą</h3>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Wybierz eksperta w swojej dziedzinie i skorzystaj z profesjonalnej pomocy</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            {/* Monika Kaczmarek */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start gap-6">
+                <div className="bg-enviro-100 w-20 h-20 rounded-full flex items-center justify-center shrink-0">
+                  <span className="text-3xl font-bold text-enviro-700">MK</span>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-1">Monika Kaczmarek</h4>
+                  <p className="text-enviro-600 font-semibold mb-4">Specjalista ds. BDO i Dotacji</p>
+                  <div className="space-y-3">
+                    <a href="tel:+48669425761" className="flex items-center gap-3 text-gray-700 hover:text-enviro-600 transition">
+                      <Phone className="h-5 w-5 text-enviro-500" />
+                      <span className="font-medium">+48 669 425 761</span>
+                    </a>
+                    <a href="mailto:m.kaczmarek@enviroplan.pl" className="flex items-center gap-3 text-gray-700 hover:text-enviro-600 transition">
+                      <Mail className="h-5 w-5 text-enviro-500" />
+                      <span className="font-medium">m.kaczmarek@enviroplan.pl</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bartosz Kołodziej */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-start gap-6">
+                <div className="bg-enviro-100 w-20 h-20 rounded-full flex items-center justify-center shrink-0">
+                  <span className="text-3xl font-bold text-enviro-700">BK</span>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-2xl font-bold text-gray-900 mb-1">Bartosz Kołodziej</h4>
+                  <p className="text-enviro-600 font-semibold mb-4">Specjalista ds. Audytów Energetycznych</p>
+                  <div className="space-y-3">
+                    <a href="tel:+48579517423" className="flex items-center gap-3 text-gray-700 hover:text-enviro-600 transition">
+                      <Phone className="h-5 w-5 text-enviro-500" />
+                      <span className="font-medium">+48 579 517 423</span>
+                    </a>
+                    <a href="mailto:b.kolodziej@enviroplan.pl" className="flex items-center gap-3 text-gray-700 hover:text-enviro-600 transition">
+                      <Mail className="h-5 w-5 text-enviro-500" />
+                      <span className="font-medium">b.kolodziej@enviroplan.pl</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-enviro-50 rounded-3xl overflow-hidden shadow-sm border border-enviro-100 flex flex-col md:flex-row">
             <div className="p-10 md:p-16 md:w-1/2">
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-6">Skontaktuj się z ekspertem</h2>
