@@ -8,9 +8,9 @@
 // 4. Copy your SERVICE_ID, TEMPLATE_ID, and PUBLIC_KEY below
 
 export const emailjsConfig = {
-  SERVICE_ID: 'YOUR_SERVICE_ID',
-  TEMPLATE_ID: 'YOUR_TEMPLATE_ID',
-  PUBLIC_KEY: 'YOUR_PUBLIC_KEY'
+  SERVICE_ID: 'oud3xwrKX9nmRfUFe',
+  TEMPLATE_ID: 'template_toi3q1g',
+  PUBLIC_KEY: 'qtoeHQNgA5sNnKUgkY4kD'
 };
 
 // Email template variables to use in EmailJS dashboard:
