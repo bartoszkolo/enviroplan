@@ -8,7 +8,7 @@
 // 4. Copy your SERVICE_ID, TEMPLATE_ID, and PUBLIC_KEY below
 
 export const emailjsConfig = {
-  SERVICE_ID: 'oud3xwrKX9nmRfUFe',
+  SERVICE_ID: 'service_jssr9ut',
   TEMPLATE_ID: 'template_toi3q1g',
   PUBLIC_KEY: 'v5y1AzOGe6o9FhXE3'
 };
