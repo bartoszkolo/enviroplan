@@ -88,7 +88,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/dps" element={<DPSPage />} />
+        <Route path="/ekologia-dla-spoleczenstwa" element={<DPSPage />} />
         <Route path="/" element={
     <div className="min-h-screen bg-gray-50 font-sans text-gray-800 flex flex-col">
 
@@ -377,7 +377,7 @@ function App() {
             variants={staggerContainer}
           >
             {/* NOWY KAFELEK DPS */}
-            <Link to="/dps" className="cursor-pointer">
+            <Link to="/ekologia-dla-spoleczenstwa" className="cursor-pointer">
               <ServiceCard
                 icon={<HeartHandshake />}
                 title="Ekologia dla Społeczeństwa (DPS, Kultura, Sport)"
