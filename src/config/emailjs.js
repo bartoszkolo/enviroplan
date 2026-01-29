@@ -10,7 +10,7 @@
 export const emailjsConfig = {
   SERVICE_ID: 'oud3xwrKX9nmRfUFe',
   TEMPLATE_ID: 'template_toi3q1g',
-  PUBLIC_KEY: 'qtoeHQNgA5sNnKUgkY4kD'
+  PUBLIC_KEY: 'v5y1AzOGe6o9FhXE3'
 };
 
 // Email template variables to use in EmailJS dashboard:
